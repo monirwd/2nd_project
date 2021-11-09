@@ -133,7 +133,7 @@ ul {
     font-size: 44px;
     color: #874EA1;
     display: inline-block;
-    border-bottom: 10px solid #FEE8BA;
+    border-bottom: 10px solid red;
 }
 
 .commit-cnt p {

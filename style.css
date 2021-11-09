@@ -1,0 +1,146 @@
+/* fonts */
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir-Heavy.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir-Black.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Clarendon;
+    src: url(fonts/Clarendon-Light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Clarendon;
+    src: url(fonts/Clarendon.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Clarendon;
+    src: url(fonts/Clarendon-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Everygirl;
+    src: url(fonts/Everygirl-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Everygirl-Script;
+    src: url(fonts/Everygirl-Script.ttf);
+    font-weight: 400;
+}
+
+body {	
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;    
+	background: #fff;
+	color: #191919;	
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+/* scrollto-top */
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+/* commit-area start */
+.commit-area {
+    padding: 100px 0;
+}
+
+.commit-cnt {
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.commit-cnt h2 {
+    font-weight: normal;
+    font-size: 44px;
+    color: #874EA1;
+    display: inline-block;
+    border-bottom: 10px solid #FEE8BA;
+}
+
+.commit-cnt p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4D4D4F;
+    margin-top: 20px;
+}

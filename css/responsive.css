@@ -24,6 +24,20 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .commit-area {
+        padding: 70px 0;
+    }
+    .commit-bg .star1 {
+        max-width: 35px;
+        left: -20px;
+        top: 0;
+    }
+
+    .commit-bg .star2 {
+        max-width: 45px;
+        right: -20px;
+        bottom: 20px;
+    }
 
 
 
@@ -47,6 +61,33 @@ Small Screen - Mobile
 ====================================
 */
 @media screen and (max-width: 767px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .commit-cnt h2::after {
+        display: none;
+    }
+
+    .commit-bg .star1 {
+        max-width: 35px;
+        left: 90%;
+        top: 0;
+    }
+    
+    .commit-bg .star2 {
+        display: none;
+    }
+
+    .commit-area {
+        padding: 50px 0;
+    }
+
+    .commit-cnt {
+        padding: 0 5px;
+    }
+    
 
 
 

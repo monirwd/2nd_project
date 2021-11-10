@@ -216,3 +216,50 @@ organize-area start
     color: #4D4D4F;
     margin-top: 30px;
 }
+
+.commission-part {
+    padding: 85px 0;
+}
+
+.commission-part a,
+.continual-part a {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    text-decoration-line: underline;
+    color: #D83FAF;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.commission-part a i,
+.continual-part a i {
+    font-size: 17px;;
+    display: inline-block;
+    margin-left: 10px;
+}
+      
+.continual-part ul li {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #4D4D4F;
+    position: relative;
+    padding-left: 18px;
+}
+
+.continual-part ul li::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #4D4D4F;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.continual-part ul {
+    padding: 18px 0;
+}

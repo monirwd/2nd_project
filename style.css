@@ -92,33 +92,6 @@ ul {
     background: #ff7675;
 }
 
-/* scrollto-top */
-.scrolltotop {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px 20px 0 0;
-    background: rgba(0,0,0,.5);   
-    text-align: center;
-    padding-top: 8px;
-    font-size: 22px;
-    color: #ffffff;
-    position: fixed;
-    right: 5px;
-    bottom: 5px;
-    display: none;
-    transition: 0.2s all ease;
-    -webkit-transition: 0.2s all ease;
-    -moz-transition: 0.2s all ease;
-}
-
-.scrolltotop:hover {   
-    background: #000;
-    color: #fff;
-    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-}
-
 /*-------------------
 commit-area start 
  --------------------*/
@@ -392,7 +365,7 @@ idearow-area start
 }
 
 .idearow-item a {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.1px;
     text-decoration-line: underline;
@@ -418,6 +391,3 @@ idearow-area start
     margin-top: 35px;
     margin-left: 80px;
 }
-
-
-

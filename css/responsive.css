@@ -25,17 +25,6 @@ Medium Screen - Others
         padding: 30px 16px 35px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -88,21 +77,6 @@ Small Screen - Tablate
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 35px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -201,17 +175,5 @@ Small Screen - Mobile
     .idearow-area .star-group {
         margin-right: 35px;
     }
-    
-
-
-
-
-
-
-    
-
-
-
-
 
 }

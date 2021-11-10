@@ -10,7 +10,19 @@ Medium Screen - Others
     }
 
     .idearow-main {
-        gr
+        grid-column-gap: 20px;
+    }
+
+    .idearow-item img {
+        max-width: 80px;
+    }
+
+    .idearow-item h4 {
+        font-size: 25px;
+    }
+
+    .idearow-item {
+        padding: 30px 16px 35px;
     }
 
 
@@ -70,6 +82,11 @@ Small Screen - Tablate
     
     .local-star img {
         visibility: hidden;
+    }
+
+    .idearow-main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px;
     }
 
 
@@ -151,7 +168,7 @@ Small Screen - Mobile
     }
 
     .local-area {
-        padding: 90px 0 70px;
+        padding: 90px 0 55px;
     }
 
     .local-title {
@@ -170,6 +187,19 @@ Small Screen - Mobile
 
     .local-sec {
         padding-bottom: 20px;
+    }
+
+    .idearow-main {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .idearow-area {
+        padding: 0px 0 25px;
+    }
+
+    .idearow-area .star-group {
+        margin-right: 35px;
     }
     
 

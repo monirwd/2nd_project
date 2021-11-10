@@ -5,6 +5,10 @@ Medium Screen - Others
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+    .local-seccnt ul li {
+        padding-right: 24px;
+    }
+
 
 
 
@@ -25,7 +29,7 @@ Small Screen - Tablate
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .commit-area {
-        padding: 70px 0;
+        padding: 70px 0 86px;
     }
     .commit-bg .star1 {
         max-width: 35px;
@@ -38,6 +42,32 @@ Small Screen - Tablate
         right: -20px;
         bottom: 20px;
     }
+
+    .state-right {
+        margin-top: 35px;
+    }
+
+    .local-seccnt ul li {
+        padding-right: 24px;
+    }
+
+    .local-title {
+        padding-bottom: 54px;
+    }
+
+    .local-seccnt {
+        padding-top: 30px;;
+    }
+
+    .local-sec,
+    .local-part {
+        padding-bottom: 60px;
+    }
+    
+    .local-star img {
+        visibility: hidden;
+    }
+
 
 
 
@@ -81,17 +111,63 @@ Small Screen - Mobile
     }
 
     .commit-area {
-        padding: 50px 0;
+        padding: 50px 0 80px;
     }
 
     .commit-cnt {
         padding: 0 5px;
     }
+
+    .org-part {
+        padding: 20px 20px 54px;
+    }
+
+    .state-right p {
+        margin-top: 25px;
+    }
+
+    .org-title {
+        margin-bottom: 30px;
+    }
+
+    .commission-part {
+        padding: 40px 0;
+    }
+
+    .state-right {
+        margin-top: 25px;
+    } 
+
+    .local-star img {
+        display: none;
+    }
+
+    .local-part {
+        padding: 20px 20px 20px;
+    }
+
+    .local-area {
+        padding: 90px 0 70px;
+    }
+
+    .local-title {
+        padding-bottom: 30px;
+    }
+
+    .local-seccnt {
+        margin-top: 34px;
+    }
+
+    .local-seccnt ul li {
+        display: block;
+        margin-right: 0;
+        padding-bottom: 12px;
+    }
+
+    .local-sec {
+        padding-bottom: 20px;
+    }
     
-
-
-
-
 
 
 

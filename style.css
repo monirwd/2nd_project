@@ -272,7 +272,7 @@ organize-area start
  local-area start
 --------------------- */
 .local-area {
-    padding: 60px 0 75px;
+    padding: 60px 0 0px;
 }
 
 .local-part {
@@ -354,3 +354,70 @@ organize-area start
 /* -------------------
 idearow-area start
 ---------------------- */
+.idearow-area {
+    padding: 50px 0;
+}
+
+.idearow-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.idearow-item {
+    background: #F2F2F3;
+    padding: 38px 24px 42px;
+    text-align: center;
+}
+
+.idearow-item img {
+    max-width: 100px;
+}
+
+.idearow-item h4 {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    color: #D83FAF;
+    margin-top: 25px;
+}
+
+.idearow-item p {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4D4D4F;
+    margin: 12px 0 24px;
+}
+
+.idearow-item a {
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    text-decoration-line: underline;
+    color: #D83FAF;
+}
+
+.idearow-item a i {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.idearow-area .star-group {
+    max-width: 68px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.idearow-area .star1 {
+    max-width: 36px;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+
+
